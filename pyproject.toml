@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-module-8-hw"
+version = "0.1.0"
+description = ""
+authors = ["Andrii-Oliinyk-2726 <123332365+Andrii-Oliinyk-2726@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "web_module_8_hw"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mongoengine = "^0.27.0"
+certifi = "^2023.5.7"
+pika = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
